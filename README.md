@@ -1,0 +1,1 @@
+# Obsidian template for using github.io
