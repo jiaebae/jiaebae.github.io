@@ -22,9 +22,8 @@
 -Define by Run: 동적 계산 그래프를 생성하는 방법.<br>
 딥러닝 프레임워크가 순방향 패스(forward pass)를 실행하는 동안 계산 그래프를 생성하게 되는데, 이는 각 반복마다 그래프를 동적으로 변경할 수 있게 함. 이는 정적 계산 그래프(Define and Run)에 비해 더 직관적이며 유연성이 뛰어남.<br>
 ex) 재귀 신경망(RNN)</li>
-<li data-line="6" dir="auto">많은 논문들이 파이토치로 구현.<br>
-참고:<a rel="noopener" class="external-link" href="https://wikidocs.net/145648" target="_blank">https://wikidocs.net/145648</a></li>
-</ul></div></div></div><div class="heading-wrapper"><h1 data-heading="파이토치 패키지의 기본 구성" dir="auto" class="heading" id="파이토치_패키지의_기본_구성">파이토치 패키지의 기본 구성</h1><div class="heading-children"><div><ul dir="auto">
+<li data-line="6" dir="auto">많은 논문들이 파이토치로 구현.</li>
+</ul></div><div><p dir="auto">참고:<a rel="noopener" class="external-link" href="https://wikidocs.net/145648" target="_blank">https://wikidocs.net/145648</a></p></div></div></div><div class="heading-wrapper"><h1 data-heading="파이토치 패키지의 기본 구성" dir="auto" class="heading" id="파이토치_패키지의_기본_구성">파이토치 패키지의 기본 구성</h1><div class="heading-children"><div><ul dir="auto">
 <li data-line="0" dir="auto">
 <h4 data-heading="1. torch" dir="auto" class="heading" id="1._torch">1. torch</h4>
 <p dir="auto">메인 네임스페이스. 텐서 등의 다양한 수학 함수가 포함되어져 있으며 Numpy와 유사한 구조를 가짐.</p>
@@ -47,18 +46,14 @@ ex) 재귀 신경망(RNN)</li>
 </li>
 <li data-line="15" dir="auto">
 <h4 data-heading="6. torch.onnx" dir="auto" class="heading" id="6._torch.onnx">6. torch.onnx</h4>
-<pre dir="auto"><code>ONNX(Open Neural Network Exchange)의 포맷으로 모델을 익스포트(export)할 때 사용. ONNX는 서로 다른 딥 러닝 프레임워크 간에 모델을 공유할 때 사용하는 포맷.
-</code><button class="copy-code-button">복사</button></pre>
-<p dir="auto">참고:<a rel="noopener" class="external-link" href="https://wikidocs.net/57168" target="_blank">https://wikidocs.net/57168</a></p>
+<p dir="auto">ONNX(Open Neural Network Exchange)의 포맷으로 모델을 익스포트(export)할 때 사용. ONNX는 서로 다른 딥 러닝 프레임워크 간에 모델을 공유할 때 사용하는 포맷.</p>
 </li>
-</ul></div><div class="heading-wrapper"><h3 data-heading="합성곱 신경망(Convolutional Neural Network, CNN)이란?" dir="auto" class="heading" id="합성곱_신경망(Convolutional_Neural_Network,_CNN)이란?"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>합성곱 신경망(Convolutional Neural Network, CNN)이란?</h3><div class="heading-children"><div><ul dir="auto">
+</ul></div><div><p dir="auto">참고:<a rel="noopener" class="external-link" href="https://wikidocs.net/57168" target="_blank">https://wikidocs.net/57168</a></p></div><div class="heading-wrapper"><h3 data-heading="합성곱 신경망(Convolutional Neural Network, CNN)이란?" dir="auto" class="heading" id="합성곱_신경망(Convolutional_Neural_Network,_CNN)이란?"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>합성곱 신경망(Convolutional Neural Network, CNN)이란?</h3><div class="heading-children"><div><ul dir="auto">
 <li data-line="0" dir="auto">딥러닝의 한 종류.</li>
 <li data-line="1" dir="auto">일반적인 신경망 구조에 합성곱 계층(Convolutional Layer)과 풀링 계층(Pooling Layer)을 추가함으로써 공간적인 구조 정보를 유지함.</li>
 <li data-line="2" dir="auto">고차원의 복잡한 데이터를 더욱 간결하게 표현할 수 있게 함.</li>
-<li data-line="3" dir="auto">영상 및 시계열 데이터에서 주요 특징을 찾아내고 학습하기 위한 최적의 아키텍처를 제공함.<br>
-ex)의료 영상(암 세포 유무 검출), 오디오 처리(Siri), 객체 검출()<br>
-참고:<a rel="noopener" class="external-link" href="https://wikidocs.net/120327" target="_blank">https://wikidocs.net/120327</a></li>
-</ul></div></div></div></div></div><div class="heading-wrapper"><h1 data-heading="CNN 계층 구조" dir="auto" class="heading" id="CNN_계층_구조">CNN 계층 구조</h1><div class="heading-children"><div><ul dir="auto">
+<li data-line="3" dir="auto">영상 및 시계열 데이터에서 주요 특징을 찾아내고 학습하기 위한 최적의 아키텍처를 제공함.</li>
+</ul></div><div><p dir="auto">참고:<a rel="noopener" class="external-link" href="https://wikidocs.net/120327" target="_blank">https://wikidocs.net/120327</a></p></div></div></div></div></div><div class="heading-wrapper"><h1 data-heading="CNN 계층 구조" dir="auto" class="heading" id="CNN_계층_구조">CNN 계층 구조</h1><div class="heading-children"><div><ul dir="auto">
 <li data-line="0" dir="auto">합성곱 계층(Convolutional Layer): 입력 영상을 일련의 컨벌루션 필터에 통과시킴. 각 필터는 영상에서 특정 특징을 활성화함.</li>
 <li data-line="1" dir="auto">ReLU(Rectified Linear Unit)계층: 음수 값은 0에 매핑, 양수 값은 그대로 두어 더 빠르고 효과적인 훈련이 이루어지도록 함. 이 때 활성화된 특징만 다음 계층으로 전달되므로 이를 <strong>활성화</strong>라고도 함.</li>
 <li data-line="2" dir="auto">풀링 계층(Pooling Layer): 비성형 다운샘플링을 수행하여 신경망이 학습해야 하는 파라미터의 개수를 줄임으로써 출력을 단순화함.<br>
@@ -70,9 +65,8 @@ ex)의료 영상(암 세포 유무 검출), 오디오 처리(Siri), 객체 검�
 <li data-line="0" dir="auto"><strong>의료 영상</strong>: cnn은 수천 건의 병리학 보고서를 검토하여 영상에서 암 세포의 유무를 시각적으로 검출할 수 있음.</li>
 <li data-line="1" dir="auto"><strong>오디오 처리</strong>: 마이크가 있는 모든 기기에서 키워드 검출을 사용하여 특정 단어나 문구("Hey Siri!")가 발화 되었을 때 이를 검출할 수 있음.</li>
 <li data-line="2" dir="auto"><strong>객체 검출</strong>: 자율 주행에서 표지판이나 다른 객체의 존재 여부를 정확하게 검출하고 출력을 바탕으로 결정을 내리는 데 사용.</li>
-<li data-line="3" dir="auto"><strong>합성 데이터 생성</strong>: GAN을 사용하여 얼굴 인식 및 자율 주행을 비롯한 딥 러닝 응용 분야에서 사용할 새로운 영상을 생성할 수 있음.<br>
-참고:<a rel="noopener" class="external-link" href="https://kr.mathworks.com/discovery/convolutional-neural-network.html" target="_blank">https://kr.mathworks.com/discovery/convolutional-neural-network.html</a></li>
-</ul></div><div><p dir="auto"><a href="?query=tag:%ED%8C%8C%EC%9D%B4%ED%86%A0%EC%B9%98" class="tag" target="_blank" rel="noopener">#파이토치</a> <a href="?query=tag:Pytorch" class="tag" target="_blank" rel="noopener">#Pytorch</a> <a href="?query=tag:%ED%95%A9%EC%84%B1%EA%B3%B1%EC%8B%A0%EA%B2%BD%EB%A7%9D" class="tag" target="_blank" rel="noopener">#합성곱신경망</a> <a href="?query=tag:CNN" class="tag" target="_blank" rel="noopener">#CNN</a></p></div><div class="mod-footer"></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+<li data-line="3" dir="auto"><strong>합성 데이터 생성</strong>: GAN을 사용하여 얼굴 인식 및 자율 주행을 비롯한 딥 러닝 응용 분야에서 사용할 새로운 영상을 생성할 수 있음.</li>
+</ul></div><div><p dir="auto">참고:<a rel="noopener" class="external-link" href="https://kr.mathworks.com/discovery/convolutional-neural-network.html" target="_blank">https://kr.mathworks.com/discovery/convolutional-neural-network.html</a></p></div><div><p dir="auto"><a href="?query=tag:%ED%8C%8C%EC%9D%B4%ED%86%A0%EC%B9%98" class="tag" target="_blank" rel="noopener">#파이토치</a> <a href="?query=tag:Pytorch" class="tag" target="_blank" rel="noopener">#Pytorch</a> <a href="?query=tag:%ED%95%A9%EC%84%B1%EA%B3%B1%EC%8B%A0%EA%B2%BD%EB%A7%9D" class="tag" target="_blank" rel="noopener">#합성곱신경망</a> <a href="?query=tag:CNN" class="tag" target="_blank" rel="noopener">#CNN</a></p></div><div class="mod-footer"></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
 		<div class="graph-view-container">
 			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
 			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>

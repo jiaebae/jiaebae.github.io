@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "week1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "week1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "week1.md"
+              }
             }
           }
         ],
@@ -155,40 +159,7 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "floating": {
-    "id": "06463149d609de66",
-    "type": "floating",
-    "children": [
-      {
-        "id": "f2cff6b09526b29e",
-        "type": "window",
-        "children": [
-          {
-            "id": "2a91d39614554a86",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "90d3efe530778f48",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 402,
-        "y": 518,
-        "width": 902,
-        "height": 502,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "90d3efe530778f48",
+  "active": "e85638fcd2d3f4e4",
   "lastOpenFiles": [
     "week1.md",
     "Pasted image 20240706211738.png",
