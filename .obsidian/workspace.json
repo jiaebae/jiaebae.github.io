@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "week1.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "index.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -159,8 +155,46 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "e85638fcd2d3f4e4",
+  "floating": {
+    "id": "06463149d609de66",
+    "type": "floating",
+    "children": [
+      {
+        "id": "f2cff6b09526b29e",
+        "type": "window",
+        "children": [
+          {
+            "id": "2a91d39614554a86",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "90d3efe530778f48",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 402,
+        "y": 518,
+        "width": 902,
+        "height": 502,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "90d3efe530778f48",
   "lastOpenFiles": [
+    "week1.md",
+    "Pasted image 20240706211738.png",
+    "Pasted image 20240706211805.png",
+    "index.md",
+    "Tags",
     "docs/lib/search-index.json",
     "docs/lib/metadata.json",
     "docs/lib/styles/obsidian.css",
@@ -170,14 +204,11 @@
     "docs/lib/styles",
     "docs/lib/scripts/graph-data.js",
     "docs/lib/scripts/minisearch.js",
-    "docs/lib/scripts/pixi.js",
-    "docs/lib/scripts/tinycolor.js",
     "test.md",
     "docs/lib/media/874d8b8e340f75575caa.svg",
     "docs/lib/media/favicon.png",
     "docs/lib/media/3d6c1bdc4d87cde4de67.svg",
     "README.md",
-    "index.md",
     "이름 없는 보드.md",
     "이름 없는 보드 1.md",
     "2024-06-26.md"
