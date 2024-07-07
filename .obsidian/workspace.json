@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "week1(2024.07.07).md",
+                "file": "week1.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "week1(2024.07.07).md",
+                "file": "week1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "week1(2024.07.07).md",
+                "file": "week1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "week1(2024.07.07).md"
+                "file": "week1.md"
               }
             }
           }
@@ -161,8 +161,10 @@
   },
   "active": "e85638fcd2d3f4e4",
   "lastOpenFiles": [
+    "docs/week1.html",
+    "week1.md",
+    "README.md",
     "docs/week1(2024.07.07).html",
-    "week1(2024.07.07).md",
     "test.md",
     "docs/test.html",
     "docs/readme.html",
@@ -176,11 +178,9 @@
     "docs/lib/styles/obsidian.css",
     "docs/lib/styles/other-plugins.css",
     "docs/lib/styles/main-styles.css",
-    "docs/lib/styles/global-variable-styles.css",
     "docs/lib/media/874d8b8e340f75575caa.svg",
     "docs/lib/media/favicon.png",
     "docs/lib/media/3d6c1bdc4d87cde4de67.svg",
-    "README.md",
     "이름 없는 보드.md",
     "이름 없는 보드 1.md",
     "2024-06-26.md"
