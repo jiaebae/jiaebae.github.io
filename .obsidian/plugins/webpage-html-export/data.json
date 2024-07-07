@@ -45,6 +45,8 @@
   "defaultMediaIcon": "lucide//file-image",
   "exportPath": "C:\\\\Users\\USER\\Desktop\\jiaebae.github.io\\docs",
   "filesToExport": [
-    []
+    [
+      "week1.md"
+    ]
   ]
 }
