@@ -46,6 +46,9 @@
   "exportPath": "C:\\\\Users\\USER\\Desktop\\jiaebae.github.io\\docs",
   "filesToExport": [
     [
+      "index.md",
+      "README.md",
+      "test.md",
       "week1.md"
     ]
   ]
