@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "week1.md",
+                "file": "week1(2024.07.07).md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "week1.md",
+                "file": "week1(2024.07.07).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "week1.md",
+                "file": "week1(2024.07.07).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "week1.md"
+                "file": "week1(2024.07.07).md"
               }
             }
           }
@@ -161,7 +161,8 @@
   },
   "active": "e85638fcd2d3f4e4",
   "lastOpenFiles": [
-    "week1.md",
+    "docs/week1(2024.07.07).html",
+    "week1(2024.07.07).md",
     "test.md",
     "docs/test.html",
     "docs/readme.html",
