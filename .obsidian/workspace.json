@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "week1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "week1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "week1.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -159,7 +155,40 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "e85638fcd2d3f4e4",
+  "floating": {
+    "id": "064ee438f8615d11",
+    "type": "floating",
+    "children": [
+      {
+        "id": "d81f6426bcda5ee8",
+        "type": "window",
+        "children": [
+          {
+            "id": "6f6d0af8fc9aa9a6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bbdc8d96d45d6a28",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 402,
+        "y": 518,
+        "width": 902,
+        "height": 502,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "bbdc8d96d45d6a28",
   "lastOpenFiles": [
     "week1.md",
     "docs/week1.html",
