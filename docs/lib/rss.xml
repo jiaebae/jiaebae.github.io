@@ -1,4 +1,5 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jiaebae.github.io]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>jiaebae.github.io</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 09 Jul 2024 14:08:29 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 09 Jul 2024 14:08:29 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[week2]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jiaebae.github.io]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>jiaebae.github.io</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 17 Jul 2024 05:12:06 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 17 Jul 2024 05:12:06 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[index]]></title><description><![CDATA[ 
+ <br><br>모각코를 하며 방학을 알차게 보내겠습니다:)]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Tue, 09 Jul 2024 14:10:40 GMT</pubDate></item><item><title><![CDATA[week2]]></title><description><![CDATA[ 
  <br><br><br><br>
 <br>OpenAI에서 개발한 자동 음성 인식 모델(Automatic Speech Recognition,ARS).
 <br>웹에서 수집한 680,000시간 분량의 다국어 및 멀티태스크 감독 데이터를 기반으로 훈련된 자동 음성 인식(ARS) 시스템.
@@ -34,7 +35,115 @@ float16 과 int8 중에서 선택할 수 있으며, int8은 더 낮은 정밀도
 <br>return WhisperModel(...).transcribe
 복사<br>초기화된 'WhisperModel' 객체의 'transcribe' 메서드를 반환함.
 transcirbe 메서드는 음성파일을 받아서 텍스트로 변환하는 기능을 수행함.
-복사<br>따라서 이 코드는 음성을 텍스트로 변환하는 Whisper 모델을 설정하고, 해당 모델의 음성 인식 기능을 반환하는 함수이다.]]></description><link>week2.html</link><guid isPermaLink="false">week2.md</guid><pubDate>Tue, 09 Jul 2024 13:57:47 GMT</pubDate></item><item><title><![CDATA[week1]]></title><description><![CDATA[<a class="tag" href="?query=tag:파이토치" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#파이토치</a> <a class="tag" href="?query=tag:Pytorch" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Pytorch</a> <a class="tag" href="?query=tag:합성곱신경망" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#합성곱신경망</a> <a class="tag" href="?query=tag:CNN" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#CNN</a> 
+복사<br>따라서 이 코드는 음성을 텍스트로 변환하는 Whisper 모델을 설정하고, 해당 모델의 음성 인식 기능을 반환하는 함수이다.]]></description><link>week2.html</link><guid isPermaLink="false">week2.md</guid><pubDate>Tue, 09 Jul 2024 14:14:50 GMT</pubDate></item><item><title><![CDATA[week3]]></title><description><![CDATA[ 
+ <br><br><br><br>
+<br>딥러닝에서 널리 사용되는 인공신경망 구조
+<br>2015년 Microsoft의 연구팀이 개발
+<br>Residual Connection을 사용하여 심층 신경망에서 발생하는 문제를 해결
+<br>사용되는 곳: 이미지 분류, 객체 검출 등.<br>
+-일반적으로 신경망이 깊어질수록 더 많은 특징을 학습할 수 있지만, 너무 깊어지면 학습이 어려워지고 성능이 떨어질 수 있음. 이를 "기울기 소실(vanishing gradient)" 문제라고 함. ResNet은 이러한 문제를 해결하기 위해 Residual Connection을 도입함.
+<br><br>
+<br>입력값을 출력값에 더하는 구조
+<br>신경망의 층(layer)을 거친 결과에 원래 입력을 더해줌
+<br>y = F(x)+x<br>
+-x: 입력값<br>
+-F(x): 여러 신경망 층을 거친 출력값<br>
+-y: 최종 출력값<br>
+이 구조 덕분에 신경망이 깊어지더라도 학습이 잘 진행됨.<br>
+입력값을 그대로 출력에 더하기 때문에, 필요한 경우 모델이 단순히 항등 함수를 학습할 수도 있음.<br>
+이는 깊은 네트워크에서 중요한 역할을 함.
+<br><br>
+<br>Residual Connection을 포함한 더 큰 구조
+<br>ResNet의 기본 구성 단위
+<br>형태
+
+<br>입력 x
+<br>두 개의 신경망 층
+<br>출력값 F(x)
+<br>Residual Connection을 통해 최종 출력값 y = F(x)+x<br>
+이 블록들이 여러 개 모여 하나의 ResNet이 됨.
+
+
+<br><br>
+<br>깊은 네트워크 학습 가능: Residual Connection 덕분에 깊은 네트워크도 효과적으로 학습할 수 있음.
+<br>성능 향상: 이미지 분류와 같은 다양한 작업에서 뛰어난 성능을 보임.
+<br>효율적 구현: 비교적 간단한 구조로도 높은 성능을 발휘함.
+<br><br>def get_resnet152():
+    model_id = "Wespeaker/wespeaker-voxceleb-resnet152-LM"
+    model_name = model_id.replace("Wespeaker/wespeaker-", "").replace("-", "_")
+
+    root_dir = hf_hub_download(model_id, filename=model_name+".onnx").replace(model_name+".onnx", "")
+
+    import os
+    if not os.path.isfile(root_dir+"avg_model.pt"):
+        os.rename(hf_hub_download(model_id, filename=model_name+".pt"), root_dir+"avg_model.pt")
+    if not os.path.isfile(root_dir+"config.yaml"):
+        os.rename(hf_hub_download(model_id, filename=model_name+".yaml"), root_dir+"config.yaml")
+
+    resnet = wespeaker.load_model_local(root_dir)
+
+    #print("Compile model for the NPU")
+    #resnet.model = intel_npu_acceleration_library.compile(resnet.model)
+
+    def resnet152(ado, sample_rate=None):
+        if isinstance(ado, str):
+            return resnet.recognize(ado)
+        else:
+            return recognize(resnet, ado, sample_rate)
+
+    resnet152.__dict__['register'] = lambda *args, **kwargs: resnet.register(*args, **kwargs)
+
+    return resnet152
+복사<br>분석<br>def get_resnet152():
+    model_id = "Wespeaker/wespeaker-voxceleb-resnet152-LM"
+    model_name = model_id.replace("Wespeaker/wespeaker-", "").replace("-", "_")
+복사<br>get_resnet152라는 이름의 함수 정의<br>
+'model_id'에 Wespeaker/wespeaker-voxceleb-resnet152-LM을 저장<br>
+'model_name'은'model_id'에서 "Wespeaker/wespeaker-"를 제거하고, 하이픈을 언더스코어로 대체하여 생성된 모델 이름. 따라서 voxceleb_resnet152_LM이 모델 이름임.<br>root_dir = hf_hub_download(model_id, filename=model_name+".onnx").replace(model_name+".onnx", "")Your Code
+복사<br>'hf_hub_download' 함수는 'model_id'와 파일 이름을 사용하여 모델과 파일을 다운로드함.<br>
+다운로드한 파일을 root_dir변수에 저장함.<br>import os
+    if not os.path.isfile(root_dir+"avg_model.pt"):
+        os.rename(hf_hub_download(model_id, filename=model_name+".pt"), root_dir+"avg_model.pt")
+    if not os.path.isfile(root_dir+"config.yaml"):
+        os.rename(hf_hub_download(model_id, filename=model_name+".yaml"), root_dir+"config.yaml")
+복사<br>os모듈을 임포트함.<br>
+avg_model.pt 파일이 root_dir에 없는 경우, '.pt' 파일을 다운로드하여 'avg_model.pt'로 이름을 변경함.<br>
+config.yaml파일이 root_dir에 없는 경우, '.yaml'파일을 다운로드하여 'config.yaml'로 이름을 변경함.<br>resnet = wespeaker.load_model_local(root_dir)
+복사<br>wespeaker 모듈의 load_madel_local함수를 사용하여 root_dir에서 모델을 로드함.<br>	#print("Compile model for the NPU")
+	#resnet.model = intel_npu_acceleration_library.compile(resnet.model)
+복사<br>주석 처리되어 있으며, 주석을 해제하면 모델을 NPU(Neural Processing Unit)를 위해 컴파일함.<br>
+NPU는 딥러닝 알고리즘 연잔에 최적화된 프로세서임.<br>def resnet152(ado, sample_rate=None):
+        if isinstance(ado, str):
+            return resnet.recognize(ado)
+        else:
+            return recognize(resnet, ado, sample_rate)
+복사<br>resnet152라는 이름의 내부 함수를 정의함.<br>
+입력 ado가 문자열인 경우, resnet 객체의 recognize함수를 호출함.<br>
+그렇지 않은 경우, recognize 함수를 호출함.<br>
+<br>recognize함수:음성데이터에서 임베딩 벡터를 추출하고, 모델의 임베딩 테이블과 비교하여 가장 유사한 항목을 찾음.
+<br>def recognize(model, pcm, sample_rate):
+    q = extract_embedding(model, pcm, sample_rate)
+    best_score = 0.0
+    best_name = ''
+    for name, e in model.table.items():
+        score = model.cosine_similarity(q, e)
+        if best_score &lt; score:
+            best_score = score
+            best_name = name
+        del score
+        gc.collect()
+    return {'name': best_name, 'confidence': best_score}
+복사<br>recognize라는 이름의 함수를 정의 매개변수로 model(음성 인식 모델 객체),pcm(음성 데이터),sample_rate(샘플링 레이트)를 받음<br>
+extract_embedding함수는 pcm과 sample_rate를 사용하여 주어진 모델에서 임베딩 벡터를 추출하여 q에 저장함.<br>
+best_score는 현재까지 발견된 최고의 유사도 점수를 저장함.<br>
+best_name은 현재까지 발견된 최고의 유사도를 가지는 항목의 이름을 저장함.<br>
+model.table은 모델이 가지고 있는 임베딩 테이블임. 이 테이블은 name과 e의 쌍으로 이루어져 있음.<br>
+e와 q간의 코사인 유사도 점수를 계산함.<br>
+계산된 점수가 현재 best_score보다 높으면, best_score와 best_name을 업데이트함.<br>
+del score와 gc.collect()는 메모리 관리를 위해 사용됨. 점수를 삭제하고 Garbage Collector를 호출하여 메모리를 해제함.<br>
+최종적으로 가장 높은 유사도를 가지는 best_name과 best_score를 딕셔너리 형태로 반환.<br>resnet152.__dict__['register'] = lambda *args, **kwargs: resnet.register(*args, **kwargs)
+복사<br>resnet152함수 객체에 register메서드를 추가함. 이는 lambda함수로 resnet객체의 register메서드를 호출함. 함수의 기능은 새로운 데이터를 등록을 함.<br>return resnet152
+복사<br>최종적으로 resnet152함수를 반환함.]]></description><link>week3.html</link><guid isPermaLink="false">week3.md</guid><pubDate>Wed, 17 Jul 2024 05:11:21 GMT</pubDate></item><item><title><![CDATA[week1]]></title><description><![CDATA[<a class="tag" href="?query=tag:파이토치" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#파이토치</a> <a class="tag" href="?query=tag:Pytorch" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Pytorch</a> <a class="tag" href="?query=tag:합성곱신경망" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#합성곱신경망</a> <a class="tag" href="?query=tag:CNN" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#CNN</a> 
  <br><br><br><br>
 <br>Python 기반의 과학 연산 패키지
 <br>NumPy를 대체하면서 GPU를 이용한 연산이 필요한 경우 사용
@@ -90,8 +199,7 @@ ONNX(Open Neural Network Exchange)의 포맷으로 모델을 익스포트(export
 <br>오디오 처리: 마이크가 있는 모든 기기에서 키워드 검출을 사용하여 특정 단어나 문구("Hey Siri!")가 발화 되었을 때 이를 검출할 수 있음.
 <br>객체 검출: 자율 주행에서 표지판이나 다른 객체의 존재 여부를 정확하게 검출하고 출력을 바탕으로 결정을 내리는 데 사용.
 <br>합성 데이터 생성: GAN을 사용하여 얼굴 인식 및 자율 주행을 비롯한 딥 러닝 응용 분야에서 사용할 새로운 영상을 생성할 수 있음.
-<br>참고:<a rel="noopener" class="external-link" href="https://kr.mathworks.com/discovery/convolutional-neural-network.html" target="_blank">https://kr.mathworks.com/discovery/convolutional-neural-network.html</a><br><a href=".?query=tag:파이토치" class="tag" target="_blank" rel="noopener">#파이토치</a> <a href=".?query=tag:Pytorch" class="tag" target="_blank" rel="noopener">#Pytorch</a> <a href=".?query=tag:합성곱신경망" class="tag" target="_blank" rel="noopener">#합성곱신경망</a> <a href=".?query=tag:CNN" class="tag" target="_blank" rel="noopener">#CNN</a>]]></description><link>week1.html</link><guid isPermaLink="false">week1.md</guid><pubDate>Sun, 07 Jul 2024 05:54:40 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[ 
- <br><br>모각코를 하며 방학을 알차게 보내겠습니다:)]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Fri, 28 Jun 2024 08:09:00 GMT</pubDate></item><item><title><![CDATA[Obsidian template for using github.io]]></title><description><![CDATA[ 
+<br>참고:<a rel="noopener" class="external-link" href="https://kr.mathworks.com/discovery/convolutional-neural-network.html" target="_blank">https://kr.mathworks.com/discovery/convolutional-neural-network.html</a><br><a href=".?query=tag:파이토치" class="tag" target="_blank" rel="noopener">#파이토치</a> <a href=".?query=tag:Pytorch" class="tag" target="_blank" rel="noopener">#Pytorch</a> <a href=".?query=tag:합성곱신경망" class="tag" target="_blank" rel="noopener">#합성곱신경망</a> <a href=".?query=tag:CNN" class="tag" target="_blank" rel="noopener">#CNN</a>]]></description><link>week1.html</link><guid isPermaLink="false">week1.md</guid><pubDate>Sun, 07 Jul 2024 05:54:40 GMT</pubDate></item><item><title><![CDATA[Obsidian template for using github.io]]></title><description><![CDATA[ 
  <br>]]></description><link>readme.html</link><guid isPermaLink="false">README.md</guid><pubDate>Wed, 26 Jun 2024 12:40:02 GMT</pubDate></item><item><title><![CDATA[test]]></title><description><![CDATA[ 
  <br>안녕하세요!<br>
 테스트 페이지입니다.]]></description><link>test.html</link><guid isPermaLink="false">test.md</guid><pubDate>Wed, 26 Jun 2024 14:11:00 GMT</pubDate></item></channel></rss>
