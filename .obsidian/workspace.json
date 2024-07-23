@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "week4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "week4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "week4.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -159,13 +155,46 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "e85638fcd2d3f4e4",
+  "floating": {
+    "id": "b288b7e5f5c9bdd4",
+    "type": "floating",
+    "children": [
+      {
+        "id": "5620fab7e4f1f321",
+        "type": "window",
+        "children": [
+          {
+            "id": "19ba163a693d826a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bad1595edb3f740f",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 402,
+        "y": 518,
+        "width": 902,
+        "height": 502,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "bad1595edb3f740f",
   "lastOpenFiles": [
-    "docs/week4.html",
     "week4.md",
     "Pasted image 20240723205302.png",
     "Pasted image 20240723204446.png",
     "Pasted image 20240723203631.png",
+    "docs/week4.html",
     "week1.md",
     "week2.md",
     "week3.md",
@@ -183,7 +212,6 @@
     "Pasted image 20240706211738.png",
     "Pasted image 20240706211805.png",
     "docs/lib/search-index.json",
-    "docs/lib/metadata.json",
     "docs/lib/media/874d8b8e340f75575caa.svg",
     "docs/lib/media/favicon.png",
     "docs/lib/media/3d6c1bdc4d87cde4de67.svg",
