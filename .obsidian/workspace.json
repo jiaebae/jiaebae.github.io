@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "week3.md",
+                "file": "week4.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b8b53b513e17a2f3",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "week3.md",
+                "file": "week4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "week3.md",
+                "file": "week4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "week3.md"
+                "file": "week4.md"
               }
             }
           }
@@ -162,11 +161,16 @@
   },
   "active": "e85638fcd2d3f4e4",
   "lastOpenFiles": [
+    "docs/week4.html",
+    "week4.md",
+    "Pasted image 20240723205302.png",
+    "Pasted image 20240723204446.png",
+    "Pasted image 20240723203631.png",
+    "week1.md",
+    "week2.md",
+    "week3.md",
     "docs/week3.html",
     "index.md",
-    "week3.md",
-    "week2.md",
-    "week1.md",
     "docs/week2.html",
     "docs/week1.html",
     "README.md",
@@ -180,7 +184,6 @@
     "Pasted image 20240706211805.png",
     "docs/lib/search-index.json",
     "docs/lib/metadata.json",
-    "docs/lib/styles/obsidian.css",
     "docs/lib/media/874d8b8e340f75575caa.svg",
     "docs/lib/media/favicon.png",
     "docs/lib/media/3d6c1bdc4d87cde4de67.svg",
