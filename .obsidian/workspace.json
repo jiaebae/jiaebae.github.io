@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "week4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "week4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "week4.md"
+              }
             }
           }
         ],
@@ -160,19 +164,23 @@
     "type": "floating",
     "children": [
       {
-        "id": "5620fab7e4f1f321",
+        "id": "66b0aff005035fca",
         "type": "window",
         "children": [
           {
-            "id": "19ba163a693d826a",
+            "id": "32e4d4394746cc75",
             "type": "tabs",
             "children": [
               {
-                "id": "bad1595edb3f740f",
+                "id": "83b8d385f9dd8009",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "week4.md",
+                    "mode": "source",
+                    "source": false
+                  }
                 }
               }
             ]
@@ -188,12 +196,25 @@
       }
     ]
   },
-  "active": "bad1595edb3f740f",
+  "active": "83b8d385f9dd8009",
   "lastOpenFiles": [
+    "docs/docs/lib/scripts/graph-data.js",
+    "docs/docs/lib/scripts",
+    "docs/docs/lib/media/874d8b8e340f75575caa.svg",
+    "docs/docs/lib/media/3d6c1bdc4d87cde4de67.svg",
+    "docs/docs/lib/media",
+    "docs/docs/lib/html/file-tree.html",
+    "docs/docs/lib/html",
+    "docs/docs/lib",
+    "docs/docs",
     "week4.md",
-    "Pasted image 20240723205302.png",
     "Pasted image 20240723204446.png",
     "Pasted image 20240723203631.png",
+    "docs/lib/media/b6yg1bA.jpg",
+    "docs/lib/media/스크린샷 2024-07-23 204444.png",
+    "docs/lib/media/스크린샷 2024-07-23 203628.png",
+    "docs/lib/media/b6yg1bA.jpg.crdownload",
+    "Pasted image 20240723205302.png",
     "docs/week4.html",
     "week1.md",
     "week2.md",
@@ -201,20 +222,10 @@
     "docs/week3.html",
     "index.md",
     "docs/week2.html",
-    "docs/week1.html",
     "README.md",
-    "docs/week1(2024.07.07).html",
     "test.md",
-    "docs/test.html",
-    "docs/readme.html",
-    "docs/index.html",
-    "Tags",
     "Pasted image 20240706211738.png",
     "Pasted image 20240706211805.png",
-    "docs/lib/search-index.json",
-    "docs/lib/media/874d8b8e340f75575caa.svg",
-    "docs/lib/media/favicon.png",
-    "docs/lib/media/3d6c1bdc4d87cde4de67.svg",
     "이름 없는 보드.md",
     "이름 없는 보드 1.md",
     "2024-06-26.md"
