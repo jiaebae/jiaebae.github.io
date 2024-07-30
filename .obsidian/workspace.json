@@ -159,45 +159,9 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "floating": {
-    "id": "b288b7e5f5c9bdd4",
-    "type": "floating",
-    "children": [
-      {
-        "id": "66b0aff005035fca",
-        "type": "window",
-        "children": [
-          {
-            "id": "32e4d4394746cc75",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "83b8d385f9dd8009",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "week4.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 402,
-        "y": 518,
-        "width": 902,
-        "height": 502,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "83b8d385f9dd8009",
+  "active": "e85638fcd2d3f4e4",
   "lastOpenFiles": [
+    "week4.md",
     "docs/docs/lib/scripts/graph-data.js",
     "docs/docs/lib/scripts",
     "docs/docs/lib/media/874d8b8e340f75575caa.svg",
@@ -207,7 +171,6 @@
     "docs/docs/lib/html",
     "docs/docs/lib",
     "docs/docs",
-    "week4.md",
     "Pasted image 20240723204446.png",
     "Pasted image 20240723203631.png",
     "docs/lib/media/b6yg1bA.jpg",
@@ -221,7 +184,6 @@
     "week3.md",
     "docs/week3.html",
     "index.md",
-    "docs/week2.html",
     "README.md",
     "test.md",
     "Pasted image 20240706211738.png",
