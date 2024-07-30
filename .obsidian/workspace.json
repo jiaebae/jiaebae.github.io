@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "week4.md",
+                "file": "week5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "week4.md",
+                "file": "week5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "week4.md"
+                "file": "week5.md"
               }
             }
           }
@@ -159,8 +159,50 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "e85638fcd2d3f4e4",
+  "floating": {
+    "id": "b288b7e5f5c9bdd4",
+    "type": "floating",
+    "children": [
+      {
+        "id": "2c5158dd10dec25a",
+        "type": "window",
+        "children": [
+          {
+            "id": "79d4151dbed8ff86",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "90fe481db1fa705f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "week5.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 402,
+        "y": 518,
+        "width": 902,
+        "height": 502,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "90fe481db1fa705f",
   "lastOpenFiles": [
+    "week3.md",
+    "week2.md",
+    "week1.md",
+    "test.md",
+    "README.md",
     "week4.md",
     "docs/docs/lib/scripts/graph-data.js",
     "docs/docs/lib/scripts",
@@ -179,13 +221,8 @@
     "docs/lib/media/b6yg1bA.jpg.crdownload",
     "Pasted image 20240723205302.png",
     "docs/week4.html",
-    "week1.md",
-    "week2.md",
-    "week3.md",
     "docs/week3.html",
     "index.md",
-    "README.md",
-    "test.md",
     "Pasted image 20240706211738.png",
     "Pasted image 20240706211805.png",
     "이름 없는 보드.md",
