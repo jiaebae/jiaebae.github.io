@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "week4.md",
+                "file": "week5.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,7 +66,7 @@
             }
           },
           {
-            "id": "b8ff0ac96e5efc52",
+            "id": "76d1863371366ee4",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -160,19 +160,19 @@
     }
   },
   "floating": {
-    "id": "b288b7e5f5c9bdd4",
+    "id": "91c842bea1cd742e",
     "type": "floating",
     "children": [
       {
-        "id": "2c5158dd10dec25a",
+        "id": "8153832e6f110dc8",
         "type": "window",
         "children": [
           {
-            "id": "79d4151dbed8ff86",
+            "id": "1f5f37f51a0355c5",
             "type": "tabs",
             "children": [
               {
-                "id": "90fe481db1fa705f",
+                "id": "275607cc16eaca3a",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -196,14 +196,19 @@
       }
     ]
   },
-  "active": "90fe481db1fa705f",
+  "active": "275607cc16eaca3a",
   "lastOpenFiles": [
+    "week4.md",
+    "week5.md",
+    "docs/lib/media/다운로드.png",
+    "docs/lib/media/다운로드.png.crdownload",
+    "docs/lib/media/스크린샷 2024-07-31 164013.png",
+    "index.md",
     "week3.md",
     "week2.md",
     "week1.md",
     "test.md",
     "README.md",
-    "week4.md",
     "docs/docs/lib/scripts/graph-data.js",
     "docs/docs/lib/scripts",
     "docs/docs/lib/media/874d8b8e340f75575caa.svg",
@@ -221,10 +226,6 @@
     "docs/lib/media/b6yg1bA.jpg.crdownload",
     "Pasted image 20240723205302.png",
     "docs/week4.html",
-    "docs/week3.html",
-    "index.md",
-    "Pasted image 20240706211738.png",
-    "Pasted image 20240706211805.png",
     "이름 없는 보드.md",
     "이름 없는 보드 1.md",
     "2024-06-26.md"
