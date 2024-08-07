@@ -1,4 +1,38 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jiaebae.github.io]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>jiaebae.github.io</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 31 Jul 2024 10:55:28 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 31 Jul 2024 10:55:27 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[week5]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jiaebae.github.io]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>jiaebae.github.io</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 07 Aug 2024 06:08:57 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 07 Aug 2024 06:08:56 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[week6]]></title><description><![CDATA[ 
+ <br><br><br><br>![]<br>ResNet 기본블록<br>import torch
+import torch.nn as nn
+
+class BasicBlock(nn.Module):
+def __init__(self, in_channels, out_channels, kernel_size=3):
+	super(BasicBlock, self).__init__()
+	
+	#합성곱층 정의
+	self.c1 = nn.Conv2d(in_channels, out_channels, kernel_size=kerner_size, padding=1)
+	self.c2 = nn.Conv2d(out_channels, out_channels, kernel_size=kerner_size, padding=1)
+	self.downsample = nn.Conv2d(in_channels, out_channels, kernel_size=1)
+	
+	#배치 정규화층 정의
+	self.bn1 = nn.BatchNorm2d(num_features=out_channels)
+	self.bn2 = nn.BatchNorm2d(num_features=out_channels)
+	
+	self.relu = nn.ReLU()
+복사<br>import torch
+import torch.nn as nn
+복사<br>파이토치와 신경망 불러와 줌.<br>class BasicBlock(nn.Module):
+def __init__(self, in_channels, out_channels, kernel_size=3):
+	super(BasicBlock, self).__init__()
+복사<br>BasicBlock이라는 이름으로 클래스 만들어 줌.<br>
+초기화 함수를 정의 해 줌. 'in_channels'은 입력 채널 수, 'out_channels'는 출력 채널 수, 'kernel_size'는 합성곱이 갖는 커널의 크기임.<br>
+super()를 이용해 nn.Module을 가져옴.<br>#합성곱층 정의
+	self.c1 = nn.Conv2d(in_channels, out_channels, kernel_size=kerner_size, padding=1)
+	self.c2 = nn.Conv2d(out_channels, out_channels, kernel_size=kerner_size, padding=1)
+	self.downsample = nn.Conv2d(in_channels, out_channels, kernel_size=1)
+복사<br>2개의 합성곱층과 다운샘플층을 정의해 줌.<br>#배치 정규화층 정의
+	self.bn1 = nn.BatchNorm2d(num_features=out_channels)
+	self.bn2 = nn.BatchNorm2d(num_features=out_channels)
+	self.relu = nn.ReLU()
+복사<br>합성곱을 한 번 거칠 때마다 배치 정규화도 필요하기 때문에 배치 정규화 2개 정의해 줌.<br>self.relu = nn.ReLU()
+복사<br>활성화 함수 정]]></description><link>week6.html</link><guid isPermaLink="false">week6.md</guid><pubDate>Wed, 07 Aug 2024 06:04:52 GMT</pubDate></item><item><title><![CDATA[week5]]></title><description><![CDATA[ 
  <br><br><br><br>50층 이상의 깊은 모델에서는 Inception에서와 마찬가지로, 연산상의 이점을 위해 "bottleneck" layer(1x1 convolution)을 이용함.<br><img alt="다운로드" src="https://jiaebae.github.io/lib/media/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.png" referrerpolicy="no-referrer"><br>기존의 Residual Block은 한 블록에 Convolution Layer(3X3) 2개가 있는 구조였음. Bottleneck 구조는 오른쪽 그림의 구조로 바꾸었는데 층이 하나 더 생겼지만 Convolution Layer(1X1) 2개를 사용하기 때문에 파라미터 수가 감소하여 연산량이 줄어들었음. 또한 Layer가 많아짐에 따라 Activation Function이 증가하여 더 많은 non-linearity가 들어감. 즉 Input을 기존보다 다양하게 가공할 수 있게 되었음.<br>결론적으로 ResNet은 Skip Connection을 이용한 Shortcut과 Bottleneck 구조를 이용하여 더 깊게 층을 쌓을 수 있었음.<br><br>우리는 쉽게 Optimal depth를 알 수가 없음.<br>
 20층이 Optimal인지, 30층이 Optimal인지, 100층이 optimal인지 아무도 모름. 하지만 * degradation problem은 야속하게도 우리는 알 수 없는 optimal depth를 넘어가면 바로 일어남.<br>ResNet은 엄청나게 깊은 네트워크를 만들어주고, Optimal depth에서의 값을 바로 Output으로 보내버릴 수 있는데 가능한 이유는 Skip connection 때문임.<br>
 ResNet은 Skip connection이 존재하기 때문에 Main path에서 Optimal depth 이후의 Weight와 Bias가 전부 0에 수렴하도록 학습된다면 Optimal depth에서의 Output이 바로 Classification으로 넘어갈 수 있음. 즉, Optimal depth이후의 block은 모두 빈깡통과 같음.<br>예를 들어 27층이 Optimal depth인데 ResNet 50에서 학습을 한다면, 28층부터 Classification 전까지의 weight와 bias를 전부 0으로 만들어버림. 그러면 27층에서의 output이 바로 Classification에서 이용되고, 이는 Optimal depth의 네트워크를 그대로 사용하는 것과 같다고 볼 수 있음.<br>
