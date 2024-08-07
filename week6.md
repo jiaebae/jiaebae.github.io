@@ -3,7 +3,7 @@
 
 ## 기본 블록 정의하기
 
-![]
+![](https://jiaebae.github.io/lib/media/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-08-07%20144641.png)
 
 ResNet 기본블록
 ```
@@ -60,4 +60,4 @@ super()를 이용해 nn.Module을 가져옴.
 ```
 self.relu = nn.ReLU()
 ```
-활성화 함수 정
+활성화 함수 정의
