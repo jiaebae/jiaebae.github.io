@@ -2,7 +2,7 @@
 #### 목표 : ResNet 코드 실습하기2, 양자화에 대해 알아보기
 
 ### ResNet 모델 정의하기
-![]()
+![](https://jiaebae.github.io/lib/media/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-08-13%20204051.png)
 
 ```
 class ResNet(nn.Module):
@@ -63,7 +63,7 @@ def forward(self, x):
 평탄화 한 값을 분류기에 넣어 최종적인 예측값을 출력함.
 
 ### 모델 학습하기
-![]()
+![](https://jiaebae.github.io/lib/media/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-08-14%20175116.png)
 
 데이터 전처리 정의
 ```
@@ -163,9 +163,7 @@ with torch.no_grad():
 기울기 사용하지 않으니 no_grad로 선언.
 test_loader로 data와 label 받아온 다음 모델 예측값 내보내 주고, output값의 인덱스만 받아오고 인덱스가 정답과 일치하는지 확인하고 일치한다면 num_corr값 갱신해주고 최종적으로 분류 정확도를 출력해줌.
 
-
-
-Quantization(양자화)란?
+### Quantization(양자화)란?
 Quantization은 실수형 변수(floating-point type)를 정수형 변수(integer or fixed point)로 변환하는 과정을 뜻함.
 - Quantization은 weight나 activation function의 값이 어느 정도의 범위 안에 있다는 것을 가정하여 이루어지는 모델 경량화 방법임
 		- > floating point로 학습한 모델의 weight 값이 -10 ~ 30 의 범위에 있다는 경우의 예시에 대해, 최소값인 -10을 uint8의 0에 대응시키고 30을 uint8의 최대값인 255에 대응시켜서 사용한다면 32bit 자료형이 8bit 자료형으로 줄어들기 때문에 전체 메모리 사용량 및 수행 속도가 감소하는 효과를 얻을 수 있음
