@@ -1,0 +1,158 @@
+<!DOCTYPE html> <html><head>
+		<title>week7</title>
+		<base href="./">
+		<meta id="root-path" root-path="./">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="jiaebae.github.io - week7">
+		<meta property="og:title" content="week7">
+		<meta property="og:description" content="jiaebae.github.io - week7">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="week7.html">
+		<meta property="og:image" content="undefined">
+		<meta property="og:site_name" content="jiaebae.github.io">
+		<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="preload" href="lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/other-plugins.css"></noscript><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-light show-inline-title show-ribbon mk-readable-line mk-folder-lines mk-spaces-enabled mk-inline-context-enabled mk-flow-seamless"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..." style="border-radius:10px; border-width: 0px;"><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="week7"><p dir="auto">week7</p></h1><div class="heading-wrapper"><h5 data-heading="활동 일자: 2024.08.13" dir="auto" class="heading" id="활동_일자:_2024.08.13"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>활동 일자: 2024.08.13</h5><div class="heading-children"></div></div><div class="heading-wrapper"><h4 data-heading="목표 : ResNet 코드 실습하기2, 양자화에 대해 알아보기" dir="auto" class="heading" id="목표_:_ResNet_코드_실습하기2,_양자화에_대해_알아보기"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>목표 : ResNet 코드 실습하기2, 양자화에 대해 알아보기</h4><div class="heading-children"></div></div><div class="heading-wrapper"><h3 data-heading="ResNet 모델 정의하기" dir="auto" class="heading" id="ResNet_모델_정의하기"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>ResNet 모델 정의하기</h3><div class="heading-children"><div><p dir="auto"><img src="" referrerpolicy="no-referrer"></p></div><div><pre><code>class ResNet(nn.Module):
+	def __init__(self.num_classes=10):
+		super(ResNet, self).__init__()
+		
+		# 기본 블록
+		self.b1 = BasicBlock(in_channels=3, out_channels=64)
+		self.b2 =  BasicBlock(in_channels=64, out_channels=128)
+		self.b3 =  BasicBlock(in_channels=128, out_channels=256)
+		
+		# 풀링을 최댓값이 아닌 평균값으로
+		self.pool = nn.AvgPool2d(kernel_size=2, stride=2)
+		
+		# 분류기
+		self.fc1 = nn.Linear(in_features=4096, out_features=2048)
+		self.fc2 = nn.Linear(in_features=4096, out_features=2048)
+		self.fc3 = nn.Linear(in_features=512, out_features=num_classes)
+		
+		self.relu = nn.ReLu()
+</code><button class="copy-code-button">복사</button></pre></div><div><p dir="auto">10개의 클래스를 갖도록 num_classes를 10으로 저장함.<br>
+super()를 이용하여 모듈의 요소들을 불러옴.<br>
+기본 블록을 3개 사용하기 때문에 3개 만들어 줌.<br>
+입력으로 채널 수가 3이 들어와서 최종적으로 채널 수 256이 나가는 형태가 됨.<br>
+풀링은 평균풀링을 사용함. 이미지의 크기를 반으로 줄이기 위해서 kernel_size=2, stride=2로 함.<br>
+stride는 커널의 이동거리임.<br>
+분류기는 3개의 MLP층을 가짐.<br>
+4096개의 특징을 받아서 최종적으로 10개 클래스에 대한 확률값을 내보냄.<br>
+활성화 함수로는 ReLu를 사용함.</p></div><div><p dir="auto">ResNet의 순전파 정의</p></div><div><pre><code>def forward(self, x):
+	# 기본 블록과 풀링층 통과
+	x = self.b1(x)
+	x = self.pool(x)
+	x = self.b2(x)
+	x = self.pool(x)
+	x = self.b3(x)
+	x = self.pool(x)
+	
+	# 분류기의 입력으로 사용하기 위한 평탄화
+	x = torch.flatten(x, start_dim=1)
+	
+	# 분류기로 예측값 출력
+	x = self.fc1(x)
+	x = self.relu(x)
+	x = self.fc2(x)
+	x = self.relu(x)
+	x = self.fc3(x)
+	
+	return x
+</code><button class="copy-code-button">복사</button></pre></div><div><p dir="auto">첫번째 블럭 지나고 풀링 해주고, 두번째 블럭 지나고 풀링 해주고, 세번째 블럭 지나고 풀링 해줌.<br>
+기본 블럭과 풀링층을 통과 했을 때까지는 2차원 이미지의 형태임.<br>
+출력값은 1차원 벡터이기 때문에 평탄화 작업을 해줌.<br>
+평탄화 한 값을 분류기에 넣어 최종적인 예측값을 출력함.</p></div></div></div><div class="heading-wrapper"><h3 data-heading="모델 학습하기" dir="auto" class="heading" id="모델_학습하기"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>모델 학습하기</h3><div class="heading-children"><div><p dir="auto"><img src="" referrerpolicy="no-referrer"></p></div><div><p dir="auto">데이터 전처리 정의</p></div><div><pre><code>import tqdm
+
+from torchvision.datasets.cifar import CIFAR10
+from torchvision.transforms import Compose, ToTensor
+from torchvision.transforms import RandomHorizontalFlip, RandomCrop
+from torchvision.transforms import Normalize
+from torchvision.utils.data.datloader import DataLoader
+
+from torch.optim.adam import Adam
+
+transforms = Compose[
+	RandomCrop((32,32), padding=4), # 랜덤 크롭핑
+	RandomHorizontalFlip(p=0.5), # 랜덤 y축 대칭
+	ToTensor(),
+	Normalize(mean=(0.4914, 0.4822, 0.4465), std=(0.247, 0.243, 0.261))
+]
+</code><button class="copy-code-button">복사</button></pre></div><div><p dir="auto">Compose를 통해 전처리를 모아줌.<br>
+랜덤 크롭핑을 통해 필요한 부분(32x32)만 보고 세로 4개에 픽셀을 0으로 채움.<br>
+랜덤하게 y축 대칭을 해주고 이미지를 텐서로 바꿔줌.<br>
+Normalize()를 통해 이미지를 정규화해줌.</p></div><div><p dir="auto">데이터불러오기</p></div><div><pre><code># 데이터셋 정의
+training_data = CIFAR10(root="./", train=True, download=True, transform=transforms)
+test_data = CIFAR10(root="./", train=False, download=True, transform=transforms)
+
+# 데이터로더 정의
+train_loader = DataLoader(training_data, batch_size=32, shuffle=True)
+test_loader = DataLoader(test_data, batch_size=32, shuffle=False)
+</code><button class="copy-code-button">복사</button></pre></div><div><p dir="auto">모델 정의하기</p></div><div><pre><code>device = "cuda" if torch.cuda.is_available() else "cpu"
+
+model = ResNet(num_classes=10)
+model.to(device)
+</code><button class="copy-code-button">복사</button></pre></div><div><p dir="auto">device는 gpu면 cuda를 사용하고 아니면 cpu를 사용함.<br>
+모델은 ResNet이고 클래스는 10개를 사용함.<br>
+모델을 device로 보냄.</p></div><div><p dir="auto">학습 루프 정의</p></div><div><pre><code>lr = 1e-4
+optim = Adam(model.parameters(), lr=lr)
+
+for epoch in range(30):
+	iterator = tqdm.tqdm(train_loader)
+	for data, label in iterator:
+	
+		# 최적화를 위해 기울기를 초기화
+		optim.zero_grad()
+		
+		# 모델의 예측값
+		preds = model(data.to(device))
+		
+		# 손실 계산 및 역전파
+		loss = nn.CrossEntropyLoss()(preds, label.to(device))
+		loss.backward()
+		optim.step()
+		iterator.set_description(f"epoch:{epoch+1} loss:{loss.item()}")
+torch.save(model.state_dict(), "ResNet.pth")
+</code><button class="copy-code-button">복사</button></pre></div><div><p dir="auto">학습율(lr) 1e-4 = 10^-4임.<br>
+Adam최적화 사용하여 모델의 파라미터를 최적화함. 확률은 미리 정의 했던 학습율이 적용됨.<br>
+for문을 통해 총 30번 학습 반복함.<br>
+데이터 로더의 프로그래스 바를 위한 tqdm으로 감싸줌.<br>
+데이터와 정답을 받아 온 다음에 기울기 초기화 해줌.<br>
+모델 예측값 출력한 다음 손실 계산 해주고 오차 역전파하고 최적화 진행해 준 다음 epoch마다 손실 출력 해줌.<br>
+학습이 완료된 가중치를 torch.save()를 이용해서 ResNet.pth라는 이름으로 저장함.</p></div></div></div><div class="heading-wrapper"><h3 data-heading="모델 성능 평가" dir="auto" class="heading" id="모델_성능_평가"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>모델 성능 평가</h3><div class="heading-children"><div><p dir="auto">ResNet 성능 확인해보기</p></div><div><pre><code>model.load_state_dict(torch.load("ResNet.pth"), map_location=device)
+
+num_corr = 0
+
+with torch.no_grad():
+	for data, label in test_loader:
+	
+		output = model(data.to(device))
+		preds = output.data.max(1)[1]
+		corr = preds.eq(label.to(device).data).sum().item()
+		num_corr += corr
+		
+	print(f"Accuracy:{num_corr/leln(test_data)}")
+</code><button class="copy-code-button">복사</button></pre></div><div><p dir="auto">"ResNet.pth"를 torch.load를 이용하여 device라는 위치에 불러옴.<br>
+전체 맞춘 갯수(num_corr) 0으로 초기화.<br>
+기울기 사용하지 않으니 no_grad로 선언.<br>
+test_loader로 data와 label 받아온 다음 모델 예측값 내보내 주고, output값의 인덱스만 받아오고 인덱스가 정답과 일치하는지 확인하고 일치한다면 num_corr값 갱신해주고 최종적으로 분류 정확도를 출력해줌.</p></div><div><p dir="auto">Quantization(양자화)란?<br>
+Quantization은 실수형 변수(floating-point type)를 정수형 변수(integer or fixed point)로 변환하는 과정을 뜻함.</p></div><div><ul>
+<li data-line="0" dir="auto">Quantization은 weight나 activation function의 값이 어느 정도의 범위 안에 있다는 것을 가정하여 이루어지는 모델 경량화 방법임<br>
+- &gt; floating point로 학습한 모델의 weight 값이 -10 ~ 30 의 범위에 있다는 경우의 예시에 대해, 최소값인 -10을 uint8의 0에 대응시키고 30을 uint8의 최대값인 255에 대응시켜서 사용한다면 32bit 자료형이 8bit 자료형으로 줄어들기 때문에 전체 메모리 사용량 및 수행 속도가 감소하는 효과를 얻을 수 있음<br>
+</li>
+<li data-line="3" dir="auto">이와 같이 Quantization을 통하여 효과적인 모델 최적화를 할 수 있는데, float 타입을 int형으로 줄이면서 용량을 줄일 수 있고 bit 수를 줄임으로써 계산 복잡도도 줄일 수 있음<br>
+</li>
+<li data-line="5" dir="auto">또한 정수형이 하드웨어가 연산하기에 더 간편하다는 장점이 있음
+<blockquote dir="auto">
+<p>[정리] Listed advantages:</p>
+<blockquote dir="auto">
+<p>① 모델의 사이즈 축소</p>
+<p>② 모델의 연산량 감소</p>
+<p>③ 효율적인 하드웨어 사용</p>
+</blockquote>
+</blockquote>
+</li>
+</ul></div><div class="mod-footer"></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="week7.html#week7"><div class="tree-item-contents heading-link" heading-name="week7"><span class="tree-item-title">week7</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="5"><a class="tree-link" href="week7.html#활동_일자:_2024.08.13"><div class="tree-item-contents heading-link" heading-name="활동 일자: 2024.08.13"><span class="tree-item-title">활동 일자: 2024.08.13</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="week7.html#목표_:_ResNet_코드_실습하기2,_양자화에_대해_알아보기"><div class="tree-item-contents heading-link" heading-name="목표 : ResNet 코드 실습하기2, 양자화에 대해 알아보기"><span class="tree-item-title">목표 : ResNet 코드 실습하기2, 양자화에 대해 알아보기</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="week7.html#ResNet_모델_정의하기"><div class="tree-item-contents heading-link" heading-name="ResNet 모델 정의하기"><span class="tree-item-title">ResNet 모델 정의하기</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="week7.html#모델_학습하기"><div class="tree-item-contents heading-link" heading-name="모델 학습하기"><span class="tree-item-title">모델 학습하기</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="week7.html#모델_성능_평가"><div class="tree-item-contents heading-link" heading-name="모델 성능 평가"><span class="tree-item-title">모델 성능 평가</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>
